@@ -42,8 +42,8 @@ Retrieval-Augmented Generation (RAG) is a method that combines retrieval-based t
 
 1. **Clone the Repository**
     ```sh
-    git clone https://github.com/yourusername/your-repo.git
-    cd your-repo
+    git clone https://github.com/pritamgouda11/Retrieval-Augmented-Generation.git
+    cd Retrieval-Augmented-Generation
     ```
 
 2. **Install Dependencies**
