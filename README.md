@@ -1,23 +1,22 @@
 # RAG-based Document Insights Generator
 
-![Logo]([path_to_logo_image](https://www.google.com/url?sa=i&url=https%3A%2F%2Fmedium.com%2F%40nikita04%2Fwhat-is-rag-retrieval-augmented-generation-7875ce0de5b1&psig=AOvVaw1EZm6xLjGNyvip9A2VxS5c&ust=1721807443666000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJCVu9rWvIcDFQAAAAAdAAAAABAI))
 
-Welcome to the **RAG-based Document Insights Generator**! This project leverages Retrieval-Augmented Generation (RAG) using Streamlit and various NLP models to provide insights from your uploaded documents. It integrates multiple document loaders and state-of-the-art NLP models to create an interactive platform for querying document content.
+This project leverages Retrieval-Augmented Generation (RAG) using Streamlit and various NLP models to provide insights from your uploaded documents. It integrates multiple document loaders and state-of-the-art NLP models to create an interactive platform for querying document content.
 
 ## What is Retrieval-Augmented Generation (RAG)?
 
 Retrieval-Augmented Generation (RAG) is a method that combines retrieval-based techniques with generative models. It enhances the ability to generate accurate and contextually relevant responses by retrieving relevant information from a large corpus of documents and feeding it into a generative model.
 
-![RAG Architecture](![image](https://github.com/user-attachments/assets/59c295ea-ccc6-4fc6-ab4f-e66e05159b11)
-)
+![image](https://github.com/user-attachments/assets/5ffb4561-a265-4e22-98e1-f2fda9563eff)
+
 
 ### How RAG Works
 
 1. **Document Retrieval**: The system retrieves relevant chunks of text from a document database based on the user's query.
 2. **Response Generation**: The retrieved text is then used to generate a detailed and contextually accurate response using advanced language models.
 
-![RAG Workflow](![image](https://github.com/user-attachments/assets/9c905c4a-9cf8-4e0c-ac3e-56a2bab80a83)
-)
+![image](https://github.com/user-attachments/assets/bd04293a-e901-4365-a1a7-b1c6560250bf)
+
 
 ## Features
 
@@ -82,24 +81,13 @@ Retrieval-Augmented Generation (RAG) is a method that combines retrieval-based t
 
 ## Screenshots
 
-![Upload Documents](path_to_screenshot1)
-*Upload your documents via the sidebar.*
-
-![Ask Questions](path_to_screenshot2)
-*Enter your questions and get insightful answers.*
+<img width="1198" alt="Screenshot 2024-07-23 at 1 31 26 PM" src="https://github.com/user-attachments/assets/27e801d5-ba63-49d8-9e22-f04b8cabd199">
 
 ## Customization
 
 - **Embeddings and Models**: Customize the embeddings model and the conversational AI model by modifying the environment variables.
 - **Chunk Size and Overlap**: Adjust the text chunk size and overlap parameters to optimize processing.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Acknowledgments
 
@@ -108,7 +96,3 @@ This project is licensed under the MIT License.
 - **Langchain and Chroma** for their amazing tools and libraries.
 
 ---
-
-Feel free to reach out for any questions or support!
-
-![Footer Image](path_to_footer_image)
