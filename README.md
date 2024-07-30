@@ -1,7 +1,7 @@
 # RAG-based Document Insights Generator
 
 
-This project leverages Retrieval-Augmented Generation (RAG) using Streamlit and various NLP models to provide insights from your uploaded documents. It integrates multiple document loaders and state-of-the-art NLP models to create an interactive platform for querying document content.
+This project leverages Retrieval-Augmented Generation (RAG) using Streamlit and various NLP models to provide insights from your uploaded documents. It integrates multiple document loaders and NLP models to create an interactive platform for querying document content.
 
 ## What is Retrieval-Augmented Generation (RAG)?
 
